@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Taviraj", serif;
+}
+body{
+    background: #F7F6F4;
+}
+
+/*-------------------------HEADER-------------------------*/
+/*-------------------------HEADER-------------------------*/
+/*-------------------------HEADER-------------------------*/
+header{
+    background: #F7F6F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 400px 0 100px;
+}
+header>div{
+    padding: 42px 0 42px 185px;
+}
+header>div>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header>div>ul>li{
+    list-style-type: none;
+    position: relative;
+}
+header>div>ul>li>a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.dop-menu{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.70);
+    display: none;
+}
+.dop-menu>ul{
+    padding: 15px 41px 23px 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dop-menu>ul>li{
+    list-style-type: none;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.dop-menu>ul>li>a{
+    text-decoration: none;
+    color: #333333;
+}
+header>div>ul>li:hover .dop-menu{
+    display: block;
+}
+
+/*-------------------------MAIN-------------------------*/
+/*-------------------------MAIN-------------------------*/
+/*-------------------------MAIN-------------------------*/
+main{
+    height: 505px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>div{
+    height: 505px;
+    width: 1110px;
+    background: #F1DDC9;
+    display: flex;
+    margin: 96px 0 0 0;
+}
+main>div>div{
+    margin: 56px 0 0 56px;
+}
+main>div>div>h2{
+    color: #333;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin-bottom: 32px;
+    padding: 0 250px 0 0;
+}
+main>div>div>p{
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding: 0 170px 0 0;
+}
+main>div>div>button{
+    color: white;
+    width: 208px;
+    height: 62px;
+    border: none;
+    background: #D84727;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-top: 80px;
+}
+
+
+/*-------------------------Section-------------------------*/
+/*-------------------------Section-------------------------*/
+/*-------------------------Section-------------------------*/
+.miniFirstTitle{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniFirstTitle h5{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-top: 250px;
+    width: 1110px;
+    height: 40px;
+}
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+section>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+}
+section>div>div{
+    height: 278px;
+    width: 255px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 18px;
+    position: relative;
+}
+section>div>div>img{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: -40px;
+}
+section>div>div>p{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    margin-top: 175px;
+}
+
+/*-------------------------Last-Section-------------------------*/
+/*-------------------------Last-Section-------------------------*/
+/*-------------------------Last-Section-------------------------*/
+.miniSecondTitle{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniSecondTitle h5{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    width: 1110px;
+    height: 40px;
+}
+.TipoFooter{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.TipoFooter>div{
+    width: 1110px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 55px;
+}
+.TipoFooter>div>div>h4{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+    width: 350px;
+}
+.TipoFooter>div>div>p{
+    color: #777;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+
